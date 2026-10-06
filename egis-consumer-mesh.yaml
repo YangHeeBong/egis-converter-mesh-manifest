@@ -94,7 +94,7 @@ spec:
     kind: Deployment
     name: egis-consumer-mesh
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 3
   behavior:
     scaleDown:
       stabilizationWindowSeconds: 300
